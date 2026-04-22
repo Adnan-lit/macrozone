@@ -1,50 +1,72 @@
-# Welcome to your Expo app 👋
+# MacroZone
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+MacroZone is a modern, sleek, and intuitive React Native application designed to help you effortlessly track your daily macronutrient intake. Built with Expo, this app provides a seamless experience on both iOS and Android devices.
 
-## Get started
+## 📸 Screenshots
 
-1. Install dependencies
+|                         Home Screen                          |                           Add Meal                           |                          Meals List                          |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="https://example.com/screenshot1.png" width="200"/> | <img src="https://example.com/screenshot2.png" width="200"/> | <img src="https://example.com/screenshot3.png" width="200"/> |
+
+## ✨ Features
+
+- **Daily Macro Tracking:** Easily log your meals and keep track of your daily calories, protein, carbs, and fat.
+- **Meal History:** View a list of your recently logged meals.
+- **Data Persistence:** Your meal data is saved locally on your device, so you never lose track of your progress.
+- **Meal Reminders:** Schedule daily reminders to log your lunch and dinner (available on iOS and other non-Android platforms).
+- **Share and Copy:** Share your daily macro summary with friends or copy it to your clipboard.
+- **Sleek UI:** A clean and modern user interface that makes tracking your macros a breeze.
+
+## 🛠 Tech Stack
+
+- **React Native:** A framework for building native apps using React.
+- **Expo:** A platform for making universal React applications.
+- **Expo Router:** File-based routing for React Native and web applications.
+- **TypeScript:** A typed superset of JavaScript that compiles to plain JavaScript.
+- **React Navigation:** Routing and navigation for your React Native apps.
+- **AsyncStorage:** For persisting data locally on the device.
+- **Expo Notifications:** For scheduling local notifications.
+- **ESLint:** For linting and code quality.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or newer)
+- npm or yarn
+- Expo Go app on your iOS or Android device, or an emulator/simulator.
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Adnan-lit/macrozone.git
+   cd macrozone
+   ```
+
+2. **Install dependencies:**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+### Running the App
+
+1. **Start the development server:**
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+2. **Open the app:**
+   - **On your mobile device:** Scan the QR code from the terminal using the Expo Go app.
+   - **On an emulator/simulator:** Press `a` for Android or `i` for iOS in the terminal.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🤝 Contributing
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Get a fresh project
+## 📝 License
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
